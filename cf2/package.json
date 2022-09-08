@@ -1,13 +1,9 @@
 {
-  "name": "cf2",
-  "version": "1.0.0",
-  "description": "o básico do approuter",
-  "scripts": {
-    "start": "node node_modules/@sap/approuter/approuter.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@sap/approuter": "^11.4.0"
+    "name": "my-approuter-cf2",
+    "scripts": {
+      "start": "node node_modules/@sap/approuter/approuter.js"
+    },
+    "dependencies": {
+      "@sap/approuter": "^9"
+    }
   }
-}
