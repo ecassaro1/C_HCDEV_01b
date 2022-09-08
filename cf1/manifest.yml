@@ -1,8 +1,5 @@
 ---
 applications:
 - name: c_hdev_01b-cf1
-  random-route: true
-  web: index.js
   buildpacks:
     - nodejs_buildpack
-  memory: 256M
