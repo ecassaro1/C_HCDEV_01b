@@ -1,0 +1,6 @@
+---
+applications:
+- name: c_hdev_01b-cf2
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  services:
+  - my-xsuaa
