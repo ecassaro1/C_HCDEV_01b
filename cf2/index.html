@@ -2,10 +2,23 @@
 <html>
 
 <head>
+    <script>
+        function getFromBE() {
+            debugger;
+
+            fetch("/backend/")
+            .then(response => response.json())
+            .then(data => {
+                debugger;
+                alert("the backend returns..."+data);
+            })
+        }
+    </script>
 </head>
 
 <body>
     <h1>Hello World Frontend!!!</h1>
+    <button text="getFromBE" onclick="getFromBE()"/>
 </body>
 
 </html>
