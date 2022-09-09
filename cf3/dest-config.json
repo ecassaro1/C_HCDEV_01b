@@ -4,7 +4,7 @@
             "existing_destinations_policy": "update",
             "destinations": [
 		{
-                    "Name": "backendDestination",
+                    "Name": "cf1Destination",
                     "Authentication": "NoAuthentication",
                     "ProxyType": "Internet",
                     "Type": "HTTP",

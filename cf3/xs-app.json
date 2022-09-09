@@ -3,16 +3,16 @@
     "authenticationMethod": "route",
     "routes": [
         {
-            "source": "^(.*)$",
-            "target": "$1",
-            "authenticationType": "xsuaa",
-            "localDir": "./"
-        },
-        {
             "source": "^/backend(.*)",
             "target": "$1",
             "destination": "cf1Destination",
             "authenticationType": "none"
+        },
+        {
+            "source": "^(.*)$",
+            "target": "$1",
+            "authenticationType": "xsuaa",
+            "localDir": "./"
         }
     ]
 }
