@@ -3,5 +3,5 @@ applications:
 - name: cf4fe
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   services:
-  - cf3-xsuaa
+  - cf4feXSUAA
   - cf4beDestination

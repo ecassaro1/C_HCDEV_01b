@@ -25,6 +25,7 @@ modules:
     memory: 256M
   requires:
     - name: cf4beDestination
+    - name: cf4feXSUAA
 
 resources:
 - name: cf4beDestination
@@ -33,3 +34,11 @@ resources:
     service-plan: lite
     service: destination
     path: destinations.json
+
+- name: cf4feXSUAA
+  type: org.cloudfoundry.managed-service
+  parameters:
+    path: ./fe/xs-security.json
+    service: xsuaa
+    service-plan: application
+    service-name: cf4feXSUAA
